@@ -43,7 +43,7 @@ class UserController extends Controller
     
     public function simpanpesan(Request $request,$id=null){
         //dd($request->all());
-        $trans= Transaksi::where('user_id', Auth::user()->id)->where('status',1)->whereNull('status')->get();
+        $trans= Transaksi::where('user_id', Auth::user()->id)->wherenull('status')->first();
         $data = $request->all();
     if(empty($trans)){
        Transaksi::create([
