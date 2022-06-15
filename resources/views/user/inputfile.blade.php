@@ -46,8 +46,6 @@
                                 <div class="card-header">
                                     <b>Silahkan lakukan pembayaran ke no rekening :</b><br>
                                     <p>BNI - 982167261 a.n Anisa Fahira</p><br>
-                                    <p>Batas pengumpulan bukti pembayaran adalah 2 hari sesudah pemesanan</p><br>
-                                    <p>Pemesanan akan dianggap batal jika lebih dari batas waktu yang ditentukan<p>
                                     <div class="form-group">
                                         <input type="file" name="bukti_bayar" id="bukti_bayar">
                                     </div>
@@ -59,7 +57,9 @@
                 @endforeach
                 <div class="card-footer">
                 Ketentuan :<br>
-                <i class="fa fa-caret-right">Pembayaran DP 50% dari jumlah angsuran perbulan.</i>
+                <i class="fa fa-caret-right">Pembayaran DP 50% dari jumlah angsuran perbulan.</i><br>
+                <i class="fa fa-caret-right">Batas pengumpulan bukti pembayaran adalah 2 hari sesudah pemesanan.</i><br>
+                <i class="fa fa-caret-right">Pemesanan akan dianggap batal jika lebih dari batas waktu yang ditentukan.</i><br>
                 <button type="submit" class="btn btn-primary float-right">Submit</button>
                 </div>
             </div>
