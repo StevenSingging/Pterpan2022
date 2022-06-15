@@ -45,7 +45,9 @@
                             <div class="card">
                                 <div class="card-header">
                                     <b>Silahkan lakukan pembayaran ke no rekening :</b><br>
-                                    <p>BNI - 982167261 a.n Anisa Fahira</p>
+                                    <p>BNI - 982167261 a.n Anisa Fahira</p><br>
+                                    <p>Batas pengumpulan bukti pembayaran adalah 2 hari sesudah pemesanan</p><br>
+                                    <p>Pemesanan akan dianggap batal jika lebih dari batas waktu yang ditentukan<p>
                                     <div class="form-group">
                                         <input type="file" name="bukti_bayar" id="bukti_bayar">
                                     </div>
